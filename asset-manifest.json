@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/satyadalei/textutils.git/static/css/main.2dfd59ef.css",
+    "main.js": "/satyadalei/textutils.git/static/js/main.74ba5dc0.js",
+    "static/js/787.719ec76d.chunk.js": "/satyadalei/textutils.git/static/js/787.719ec76d.chunk.js",
+    "index.html": "/satyadalei/textutils.git/index.html",
+    "main.2dfd59ef.css.map": "/satyadalei/textutils.git/static/css/main.2dfd59ef.css.map",
+    "main.74ba5dc0.js.map": "/satyadalei/textutils.git/static/js/main.74ba5dc0.js.map",
+    "787.719ec76d.chunk.js.map": "/satyadalei/textutils.git/static/js/787.719ec76d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dfd59ef.css",
+    "static/js/main.74ba5dc0.js"
+  ]
+}
