@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container.preview-text p{
+    resize: vertical;
+    width: 100%;
+}
+textarea{
+ resize: vertical;
+}
