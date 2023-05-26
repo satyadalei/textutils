@@ -7,6 +7,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
  import Alert from './components/Alert';
+import Footer from './components/Footer';
 
 function App() {
   const [mode,setMode] = useState('light');
@@ -35,7 +36,6 @@ function App() {
     <>
       <Navbar handleMode={handleMode} title="TextUtils" link1="Home" link2="About" mode={mode} />
         {/* <Routes> */}
-           <h5 style={{color:`${mode === `dark` ? `white` : `black`}`}} className='text-center my-3' >Hi My name is Satyanarayan! Hope u enjoy this app.</h5>
            {/* <Route path='/' element={<TextForm showAlert={showAlert} mode={mode} />} /> */}
            <TextForm  mode={mode} />
            {/* <Route path='/' element={<TextForm showAlert={showAlert} mode={mode} />} /> */}
@@ -43,6 +43,7 @@ function App() {
         {/* </Routes> */}
       <Alert alert={alert}/>
       {/* <TextForm showAlert={showAlert} mode={mode} /> */}
+      <Footer mode={mode} />
       
     </>
   );
